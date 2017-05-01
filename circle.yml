@@ -14,7 +14,7 @@ test:
     - docker-compose up -d
     - docker-compose run dockerapp python test.py
 
-deploy:
+deployment:
   hub:
     branch: /.*/
     commands:
